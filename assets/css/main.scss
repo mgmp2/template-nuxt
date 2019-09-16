@@ -1,0 +1,95 @@
+@import './../../static/fonts/fonts.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-vue/dist/bootstrap-vue.css';
+
+
+// INIT FROM 320PX
+/** GENERAL  */
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Omnes Regular", sans-serif;
+}
+.container { padding-right: 21px; padding-left: 21px; }
+body, #app { color: #1f1f1f!important; }
+#app { text-align: initial!important; }
+main { min-height: 100vh; }
+.lh-1 { line-height: 1; }
+.r-border {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #D8D8D8;
+}
+p, span, h1, h2,
+h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+h1 { font-size: 28px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+h6 { font-size: 10px; }
+p { font-size: 13px; }
+.form-control, .btn { font-size: 16px; }
+.custom-checkbox label,
+.custom-checkbox p,
+.custom-checkbox span { font-size: 12px; }
+//button
+.btn-dark.disabled { font-size: 16px; font-family: "Omnes Semibold" }
+.btn-dark { font-size: 16px; font-family: "Omnes Semibold" }
+.text-primary {color: #0855c4!important;}
+.text-secondary {color: #00ADEE!important;}
+.text-info {color: #717285!important;}
+.text-light {color: #d8d8d8!important;}
+.text-dark{color: #ea0c90!important;}
+.bg-primary {background-color: #0855c4!important;}
+.bg-secondary {background-color: #00ADEE!important;}
+.bg-secondary-opacity { background-color: #F4F8FC!important;}
+.bg-info {background-color: #717285!important;}
+.bg-light {background-color: #d8d8d8!important;}
+.bg-dark{background-color: #ea0c90!important;}
+.btn-primary {
+  border-color: #0855c4!important;
+  background-color: #0855c4!important;}
+.btn-secondary {
+  border-color: #00ADEE!important;
+  background-color: #00ADEE!important;}
+.btn-info {
+  border-color: #717285!important;
+  background-color: #717285!important;}
+.btn-light {
+  border-color: #d8d8d8!important;
+  background-color: #d8d8d8!important;}
+.btn-dark{
+  border-color: #ea0c90!important;
+  background-color: #ea0c90!important;}
+.is-valid { color: #000; }
+input, .dropdown button, .form-control, select, .custom-select:focus,
+.dropdown .btn-success:focus, .form-control:focus, input:focus,
+.dropdown .btn-success:not(:disabled):not(.disabled):active:focus {
+    border-top: none!important;
+    border-right: none!important;
+    border-left: none!important;
+    border-bottom-color: #C5C5C5!important;
+    box-shadow: none;
+    color: #fff;
+    background-color: transparent!important;
+    border-radius: 0!important;
+    text-align: left;
+    margin: 0 7px;
+}
+
+input:focus {
+  border-top: none!important;
+    border-right: none!important;
+    border-left: none!important;
+    border-bottom-color: #C5C5C5!important;
+}
+/************** MODALS *********************************/
+@import "responsiveMain.scss";
+
+

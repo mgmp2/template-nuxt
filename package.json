@@ -1,0 +1,40 @@
+{
+  "name": "vida_free-frontend",
+  "version": "1.0.0",
+  "description": "Seguro de Vida Free",
+  "author": "Miriam Mendoza &lt;miriammp1997@gmail.com&gt;",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "dotenv": "^8.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.0.0",
+    "parseurl": "^1.3.3",
+    "sass-loader": "^8.0.0",
+    "vue-form-wizard": "^0.8.4",
+    "vue-page-transition": "^0.2.2",
+    "vue-sweetalert2": "^2.1.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "pug": "^2.0.4",
+    "prettier": "^1.18.2",
+    "pug-plain-loader": "^1.0.0"
+  }
+}

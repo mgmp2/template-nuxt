@@ -1,0 +1,44 @@
+// Galaxy S5
+@media (min-width: 360px) {
+
+}
+
+// iPhone 6/7/8/X
+@media (min-width: 375px) {
+}
+
+// Pixel 2 -- Más usado 
+@media (min-width: 410px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  // Home
+  #home {
+    background-color: red;
+    // formQuote
+    #form-quote {
+      padding: 21px 0;
+      color: #fff;
+      label { font-size: 14px; }
+      input { margin: 0; }
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+}
+
+// front-end Me
+@media (min-width: 1367px) and (max-width: 1439px) { 
+  
+}
