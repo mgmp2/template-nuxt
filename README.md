@@ -1,6 +1,5 @@
-# vida_free-frontend
+# Template nuxt
 
-> Seguro de Vida Free
 
 ## Build Setup
 
